@@ -1,0 +1,71 @@
+body{
+  text-align: center;
+  background-color: rgb(97, 198, 226);
+}
+h1{
+  display: block;
+  font-size: 5rem;
+  font-style: italic;
+  text-shadow: 2px 2px rgb(51, 124, 158);
+}
+.set{
+  margin: 10% auto;
+  display: block;
+}
+.drum{
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  font-size: 5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(9, 90, 136);
+  margin: 15px;
+  border-radius: 1px;
+  box-shadow: 0 0 0 10px rgb(20, 153, 160);
+  display: inline-block;
+  text-align: center;
+  font-weight: 900;
+  line-height: 2.5;
+  cursor: pointer;
+  align-items: center;
+  
+}
+.a{
+    background-image:url("./Images/Tom1.png") ;
+    background-size: cover;
+    background-position: center;
+}
+.s{
+  background-image:url("./Images/Tom2.jpg") ;
+  background-size: cover;
+  background-size: 15rem;
+  background-position: center;
+}
+.d{
+  background-image:url("./Images/Tom3.jpg") ;
+  background-size: cover;
+  background-size: 15rem;
+}
+.f{
+  background-image:url("./Images/Hi-hat.jpeg") ;
+  background-size: cover;
+  background-size: 15rem;
+  background-position: center;
+}
+.g{
+  background-image:url("./Images/Snare-drum.jpeg") ;
+  background-size: cover;
+  background-size: 10rem;
+  background-position: center;
+}
+.h{
+  background-image:url("./Images/Bass.jpeg") ;
+  background-size: cover;
+  background-size: 15rem;
+}
+.j{
+  background-image:url("./Images/Crash.jpeg") ;
+  background-size: cover;
+  background-size: 15rem;
+  background-position: center;
+}
