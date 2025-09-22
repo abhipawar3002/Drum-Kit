@@ -21,14 +21,14 @@ document.addEventListener("DOMContentLoaded", function () {
     sound3.onclick = Tom3;
 
     function Hi_Hat() {
-        let audio = new Audio('Sound/Hi-Hat.mp3');
+        let audio = new Audio('Sound/Hihat.mp3');
         audio.play();      
     }
     let sound4 = document.querySelector('.f');
     sound4.onclick = Hi_Hat;
 
     function Snare_Drum() {
-        let audio = new Audio('Sound/Snare-drum.mp3');
+        let audio = new Audio('Sound/Snaredrum.mp3');
         audio.play();      
     }
     let sound5 = document.querySelector('.g');
@@ -73,3 +73,4 @@ document.addEventListener("DOMContentLoaded", function () {
         
     });
 });
+
